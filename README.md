@@ -1,23 +1,33 @@
 **A/B Testing of Marketing Data**
+**Overview**
+This project aims to analyze the outcomes of an A/B test comparing two groups—Ad Group and PSA Group—to identify the most effective marketing campaign strategy. By evaluating conversion rates across various timeframes, the study provides actionable insights for optimizing advertising efforts.
 
-**Overview.**
+**Objective**
+The primary objective of this project is to assess the performance differences between the two groups in terms of conversion rates. Key areas of focus include:
 
-This project analyzes the results of an A/B test comparing two versions of a marketing campaign to determine which one performs better. The primary goal is to optimize advertising efforts by identifying the most effective strategies.
+Performance by day of the week: Understanding trends across specific days.
+Performance by hour of the day: Identifying optimal timeframes for higher engagement.
+Methodology
+The analysis is conducted in the following steps:
 
-**Objective.**
+**Data Preparation:**
+Import and clean raw data to remove inconsistencies.
+Segment the data into groups (Ad Group and PSA Group) by timeframes.
+Exploratory Data Analysis (EDA):
+Visualize conversion patterns by days and hours.
+Calculate group-wise conversion metrics.
 
-The main objective of this A/B testing project is to compare the performance of two groups (Ad Group and PSA Group) in terms of conversion rates across different days and hours. The goal is to identify which group performs better and under what conditions.
+**Statistical Analysis:**
+Conduct Z-tests to compare conversion rates, validating whether the observed differences are statistically significant.
+Key Findings
+**Conversion Rate Analysis:**
+The Ad Group consistently showed higher conversion rates compared to the PSA Group.
+Notable differences in performance were observed on weekdays, especially during afternoon hours.
+**Statistical Significance:**
+Results from Z-tests indicated that the performance differences were statistically significant, favoring the Ad Group in most scenarios.
 
-**Methodology.**
+**Conclusion**
+Based on the findings:
 
-The project involves:
-Data analysis of ads performance by days of the week and hours,
-Statistical analysis using Z-tests to compare the conversion rates between Ad Group and PSA Group.
-
-**Key Findings.**
-
-The Ad Group generally outperformed the PSA Group, showing significantly higher conversion rates.
-Z-tests confirmed statistically significant differences in performance between the groups, favoring the Ad Group in most cases.
-
-**Conclusion.**
-Based on the Z-test results, the Ad Group performs significantly better than the PSA Group, making it the recommended choice for future marketing efforts.
+The Ad Group is the superior performer, achieving higher conversion rates under most conditions.
+Future marketing campaigns should prioritize strategies aligned with the Ad Group’s approach, particularly focusing on effective weekdays and afternoon timeframes for maximum impact.
